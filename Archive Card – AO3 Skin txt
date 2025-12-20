@@ -4778,16 +4778,3 @@ ul.tags li a.tag:active {
   border: none !important;
   background: transparent !important;
 }
-/* Optional iOS-only fix:
-   iOS browsers auto-zoom inputs if font-size < 16px. If you don't want that behavior,
-   keep this block. If you prefer the smaller input text, delete this block. */
-@supports (-webkit-touch-callout: none) {
-  html body form.filters input[type="text"],
-  html body form.filters input[type="search"],
-  html body form.filters input[type="url"],
-  html body form.filters select,
-  html body form.filters textarea {
-    font-size: 1rem !important; /* 16px */
-  }
-}
-
