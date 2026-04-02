@@ -2371,7 +2371,8 @@ ol.comment.index.group .unread {
 #chapters .userstuff blockquote {
   color: #111111 !important;
   font-family: -apple-system, BlinkMacSystemFont,
-               "Helvetica Neue", Arial, sans-serif, "PingFang SC", "Microsoft YaHei !important;
+               "PingFang SC", "Microsoft YaHei",
+               "Helvetica Neue", Arial, sans-serif !important;
   line-height: 1.5 !important;
   font-size: 0.9rem !important;
 }
